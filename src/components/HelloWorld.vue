@@ -1,24 +1,19 @@
 <template>
   <v-container>
-    <v-card>
-      <v-card-subtitle class="p-10">
-        ระหว่างดําเนินการ
-      </v-card-subtitle>
-      <v-card-title>
-        ขอมูลทั่วไปของคดี
-      </v-card-title>
-    </v-card>
+    <v-row>
+      <v-col cols="12">
+        <BaseContainer class="py-7 px-8">
+          <v-card-title>
+            รายละเอียดข้อเท็จจริงโดยย่อ
+          </v-card-title>
+        </BaseContainer>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
-export default {
-  setup () {
-    
 
-    return {}
-  }
-}
 </script>
 
 <style lang="scss" scoped>
